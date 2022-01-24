@@ -1,0 +1,61 @@
+* {
+
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+
+    display: flex;
+    flex-wrap: wrap;
+    height: 40vh;
+    border: 1px solid black;
+    background-color: rgb(124, 0, 128);
+
+}
+
+
+.chip{
+
+    /* padding: 1rem;
+    border: red solid;
+    background-color: white;
+    width: 70%;
+    min-height: 64px;
+    margin: 0 auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-radius: 7px;
+    box-shadow: 2px 2px 4px 5px rgb(109 109 109 / 5%);
+    display: flex;
+    flex-flow: row wrap;
+    row-gap: 1rem;
+*/
+ 
+width: 70%;
+background-color: honeydew;
+display: flex;
+min-height: 64px;
+
+}
+
+.chips{
+    height: 2rem;
+    padding: 7px 23px;
+    background-color: #719431;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.chips:hover{
+    color: white;
+}
+
+#closeBtn_icon {
+    padding-left: 5px;
+}
