@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    display: flex;
+    background-color: #8a2be2;
+    flex-wrap: wrap;
+    margin: 1rem;
+    padding: 1rem 1rem;
+}
+
+.header_name a {
+
+color: white;
+padding-left: 1rem;
+display: flex;
+padding: 10px;
+
+}
+
+i {
+    color: white;
+}
+
+
+.icon_shift{
+
+    margin-top:12px
+}
+
+.header_nav{
+    display: flex;
+    margin-left: auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.header_nav li {
+
+    display: inline-block;
+    padding: 4px;
+}
+.header_name a {
+    text-decoration: none;
+}
