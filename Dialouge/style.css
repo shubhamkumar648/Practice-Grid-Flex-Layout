@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+
+    padding: 1rem;
+}
+
+p {
+    padding-left: 14px;
+    color: #808080;
+
+}
+.container{
+
+display: flex;
+flex-wrap: wrap;
+gap: 15px;
+
+}
+
+.dialouge_Container{
+    
+    height: 20rem;
+    flex: 1 1 0;
+    /* width: 20rem; */
+    border: 1px solid black;
+    
+}
+
+.dialouge_card{
+
+    width: 21rem;
+    height: 12rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 2rem;
+}
+
+.footer {
+
+    position: relative;
+    left: 162px;
+    top: 86px
+
+}
+
+button {
+
+ 
+    cursor: pointer;
+    /* background-color: #333; */
+    color: #6200ee;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 3px 8px;
+    background-color: Transparent;
+  background-repeat:no-repeat;
+   border: none;
+     
+}
