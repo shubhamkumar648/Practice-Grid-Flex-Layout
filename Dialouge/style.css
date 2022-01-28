@@ -9,7 +9,7 @@ h2 {
     padding: 1rem;
 }
 
-p {
+.dialouge_body {
     padding-left: 14px;
     color: #808080;
 
@@ -34,16 +34,21 @@ gap: 15px;
 .dialouge_card{
 
     width: 21rem;
-    height: 12rem;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-top: 2rem;
+    margin-top: 4rem;
+    margin-left: 43px;
 }
 
 .footer {
 
-    position: relative;
+    /* position: relative;
     left: 162px;
-    top: 86px
+    top: 86px */
+
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 38px;
+    
 
 }
 
