@@ -1,41 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a4417b6562.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Tabs</title>
-    
-    
-</head>
-<body>
-    
-<div class="container">
-
-    <div class="tabs">
-
-    <ul class="tab">
-        <li>
+  </head>
+  <body>
+    <div class="container">
+      <!-- without icon -->
+      <div class="tabs">
+        <ul class="tab">
+          <li>
             <a href="#" class="tab_link">TAB ONE</a>
-        </li>
-        <li>
-            <li>
-                <a href="#" class=tab_link>TAB TWO </a>
-              </li>
-        </li>
-        <li>
-            <li>
-                <a href="#" class="tab_link">TAB THREE</a>
-              </li>
-        </li>
-    </ul>
+          </li>
 
+          <li>
+            <a href="#" class="tab_link">TAB TWO </a>
+          </li>
+
+          <li>
+            <a href="#" class="tab_link">TAB THREE</a>
+          </li>
+        </ul>
+      </div>
+      <div class="tabs">
+        <!-- with icon -->
+        <ul class="tab">
+          <li>
+            <a href="#" class="tab_link">
+              <i class="fas fa-clock"></i>
+              TAB ONE</a
+            >
+          </li>
+
+          <li>
+            <a href="#" class="tab_link">
+              <i class="fas fa-map"></i>
+              TAB TWO
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="tab_link">
+              <i class="fas fa-heart"></i>
+              TAB THREE</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="tabs">
+        <!-- with top icon -->
+
+        <ul class="tab">
+          <li>
+            <i class="fas fa-clock top_icon"></i>
+
+            <a href="#" class="tab_link"> TAB ONE</a>
+          </li>
+
+          <li>
+            <i class="fas fa-map top_icon2"></i>
+
+            <a href="#" class="tab_link"> TAB TWO </a>
+          </li>
+
+          <li>
+            <i class="fas fa-heart top_icon3"></i>
+
+            <a href="#" class="tab_link"> TAB THREE</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <div class="tabs">2</div>
-    <div class="tabs">3</div>
-</div>
-
-
-</body>
+  </body>
 </html>
